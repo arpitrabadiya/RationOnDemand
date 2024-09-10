@@ -5,8 +5,8 @@ require_once '../Twilio/autoload.php';
     
     use Twilio\Rest\Client;
     
-    $sid    = "ACc156700d2a5793a8824aa5609a111ebf"; 
-    $token  = "3b930d18af60c6756fb90162b073bd95"; 
+    $sid    = ""; 
+    $token  = ""; 
     $twilio = new Client($sid, $token); 
 
 $id = $_REQUEST['id'];
